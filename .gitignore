@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# --- LaTeX (Si redactas artículos aquí) ---
+*.aux
+*.log
+*.toc
+#*.pdf
+*.out
+*.fdb_latexmk
+*.fls
+
+# --- Datos y Archivos Pesados ---
+#*.csv
+#*.xlsx
+#*.json
+
+#archivo específico: !mi_tabla_importante.csv
+# Ignorar carpetas de datos si son muy pesadas
+data/raw/
+
+# --- IDEs y Sistema ---
+.vscode/
+.idea/
+.DS_Store
